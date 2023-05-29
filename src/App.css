@@ -1,0 +1,62 @@
+
+.navigator{
+  background-color: #282c34;
+  display: flex;
+  left: 0;
+  font-size: 25px;
+}
+
+li{
+  padding: 20px;
+ list-style-type: none;
+
+}
+li:active{
+  background-color: rgb(206, 206, 47);
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+.navigator_item:hover{
+  background-color: rgb(206, 206, 47);
+}
+.container{
+  display: grid;
+  grid-template-columns: repeat(3,1fr); 
+  grid-template-rows: repeat(2, 1fr);
+  gap: 10px;
+}
+img{
+  max-width: 100%;
+  height: auto;
+}
+.card {
+  text-align: center;
+}
+button{
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+button:hover{
+  color:brown;
+  background-color:burlywood  ;
+}
+footer{
+  background-color: rgb(153, 153, 57);
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+footer p{
+  color: white;
+  
+
+}
+
